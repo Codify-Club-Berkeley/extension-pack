@@ -1,11 +1,5 @@
-# codify-extensions README
+# Codify Extension Pack
 
-## Updating
+List of recommended extensions for the Codify Education Program.
 
-To push an update, run:
-
-```bash
-vsce publish --no-dependencies
-```
-
-Reference [publishing an extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+More information about included extensions and how to use them can be found at the main [Codify Education Program](https://education.codifyberkeley.org/docs/Bonus/extensions) website.

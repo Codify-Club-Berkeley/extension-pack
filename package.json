@@ -1,36 +1,41 @@
 {
-  "name": "codify-extensions",
-  "publisher": "CodifyBerkeley",
-  "displayName": "codify extensions",
-  "description": "Recommended extensions for typescript web development",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.85.0"
-  },
-  "categories": [
-    "Extension Packs"
-  ],
-  "extensionPack": [
-    "aaron-bond.better-comments",
-    "eamodio.gitlens",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "GitHub.copilot",
-    "GitHub.copilot-chat",
-    "ms-vsliveshare.vsliveshare",
-    "formulahendry.auto-rename-tag",
-    "bradlc.vscode-tailwindcss",
-    "dsznajder.es7-react-js-snippets",
-    "PKief.material-icon-theme",
-    "Prisma.prisma",
-    "rangav.vscode-thunder-client",
-    "streetsidesoftware.code-spell-checker",
-    "VisualStudioExptTeam.intellicode-api-usage-examples",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "WallabyJs.console-ninja",
-    "yoavbls.pretty-ts-errors"
-  ],
-  "dependencies": {
-    "@vscode/vsce": "^2.22.0"
-  }
+	"name": "codify-extensions",
+	"publisher": "CodifyBerkeley",
+	"displayName": "Codify Education Extensions",
+	"description": "Recommended extensions for typescript web development",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Codify-Club-Berkeley/extension-pack"
+	},
+	"icon": "logo.png",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": ["Extension Packs"],
+	"extensionPack": [
+		"aaron-bond.better-comments",
+		"eamodio.gitlens",
+		"biomejs.biome",
+		"GitHub.copilot",
+		"GitHub.copilot-chat",
+		"ms-vsliveshare.vsliveshare",
+		"formulahendry.auto-rename-tag",
+		"bradlc.vscode-tailwindcss",
+		"PKief.material-icon-theme",
+		"streetsidesoftware.code-spell-checker",
+		"VisualStudioExptTeam.intellicode-api-usage-examples",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"WallabyJs.console-ninja",
+		"yoavbls.pretty-ts-errors"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"dependencies": {
+		"@vscode/vsce": "^2.22.0"
+	}
 }
