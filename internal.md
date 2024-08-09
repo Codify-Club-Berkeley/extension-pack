@@ -13,3 +13,5 @@ If the PAT is out of date, it will prompt you to enter a new one.
 Reference [publishing an extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
 The marketplace page can be found [here](https://marketplace.visualstudio.com/items?itemName=CodifyBerkeley.codify-extensions).
+
+With each new push, you must update the version number in the package.json file.
